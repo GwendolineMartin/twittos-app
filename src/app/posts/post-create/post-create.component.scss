@@ -1,0 +1,18 @@
+.mat-card-form {
+  margin: 3rem 0;
+}
+
+mat-form-field {
+  width: 100%;
+  .textarea-w {
+    width: 100%;
+  }
+}
+.btn-right {
+  display: flex;
+  justify-content: right;
+}
+
+mat-spinner {
+  margin: auto;
+}

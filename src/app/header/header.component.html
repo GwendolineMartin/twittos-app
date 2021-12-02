@@ -1,0 +1,30 @@
+<mat-toolbar class="mb-2">
+  <button
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with menu icon"
+  >
+    <img
+      routerLink="/"
+      height="40px"
+      src="../../assets/images/logo.svg"
+      alt=""
+    />
+  </button>
+  <span class="ml-1">Tweeto's</span>
+  <span class="example-spacer"></span>
+  <button mat-mini-fab color="accent">
+    <mat-icon routerLink="/create">add</mat-icon>
+  </button>
+  <button class="ml-5" routerLink="/signup" mat-button color="primary">
+    Signup
+  </button>
+  <button
+    class="ml-1"
+    mat-mini-fab
+    color="primary"
+    aria-label="button add tweet"
+  >
+    <mat-icon routerLink="/login">perm_identity</mat-icon>
+  </button>
+</mat-toolbar>
